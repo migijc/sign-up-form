@@ -1,0 +1,212 @@
+body{
+    padding:0;
+    margin: 0;
+    background-color: rgb(9, 23, 36);
+    display: flex;
+    justify-content: center;
+    font-family: soleil, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+
+    
+}
+
+.container{
+    background-color: white;
+    width: 1350px;
+    display: flex;
+    height: 100vh;
+}
+.rightPart{
+    background-color: rgb(243, 242, 242);
+    width: 800px;
+    position: relative;
+    
+}
+
+.leftPart{
+    background-image: url(.//img/waves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    position: relative;
+}
+
+.logoContainer{
+    width: 550px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    opacity: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    background-image: url(.//img/logo.png);
+    width:140px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;   
+    margin: 0;
+    position: relative;
+    left: 20px;
+}
+
+.logoName{
+    opacity: 100%;
+    color: white;
+    font-size: 80px;
+    font-family: sarina, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    left:-20px
+
+}
+
+.logoAndText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 167px;
+}
+
+.description{
+    
+    width: 650px;
+}
+
+.descriptionContainer{
+    position: relative;
+    left: 40px;
+    top:115px;
+    font-size: 20px;
+    color: rgb(9, 23, 36);
+}
+
+form{
+    position: relative;
+    top: 161px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    gap: 9px;
+    box-shadow: 0px 16px 20px -15px rgb(175, 173, 173);
+    
+}
+
+h1{
+    font-size: 20px;
+}
+
+label,
+input{
+    appearance: none;
+    box-sizing: border-box;
+    width: 230px;
+    -webkit-appearance:none;
+    appearance: none;
+    padding:0;
+    margin: 0;
+    border: 0;
+}
+
+label{
+    display: block;
+    font-family: soleil, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+.fullName,
+.contactInfo,
+.passwordAndConfirm{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 55px;
+    gap: 50px;
+    bottom: 2px;
+    
+    
+}
+
+.formHeader{
+    position: relative;
+    left: 61px;
+    color:#133a4d;
+}
+
+input{
+    border-radius: 16px;
+    height:30px;
+    border: none;
+    box-shadow:  1px 1px 4px  #133a4d;
+    padding-left: 12px;
+}
+
+label{
+   color: rgb(9, 23, 36);
+   padding: 6px;
+   font-size: 12px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 100;
+    top: 61px;
+    left: 61px;
+    background-color: #133a4d;
+    background-size: cover;
+    background-position: left;
+    color: white;
+    font-family: soleil, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+input:focus{
+    border: 1px solid #133a4d;
+}
+
+/* input:invalid{
+    border: 1px solid red;
+} */
+
+input:invalid{
+    border: 1px solid red;
+}
+
+.logIn{
+    position:relative;
+    left: 61px;
+    top: 65px;
+}
+
+.logIn::after{
+    content:" Log in";
+    color: rgb(37, 109, 177);
+}
+
+
+
+
+
+
+
+
+
+
